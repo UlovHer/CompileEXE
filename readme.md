@@ -1,4 +1,4 @@
-<div align='center' ><font size='70'>使用MCC将编译EXE</font></div>
+<div align='center' ><font size='70'>使用MCC编译EXE</font></div>
 
 ### 1 MCC编译过程
 
