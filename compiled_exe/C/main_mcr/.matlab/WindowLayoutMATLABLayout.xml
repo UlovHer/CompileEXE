@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Layout CurrentFolderBarBelow="yes">
+   <Version Major="3" Minor="1"/>
+   <Frame StatusBarShowing="yes" TitlesShowing="yes">
+      <ToolBars>
+         <ToolBar Label="当前文件夹" Name="Current DirectoryToolBar" Showing="yes"/>
+      </ToolBars>
+      <Split Orientation="leftRight" Position="0.7638">
+         <Split Orientation="leftRight" Position="0.1886">
+            <View Name="Current Directory" Title="当前文件夹"/>
+            <View Name="Command Window" Title="命令行窗口"/>
+         </Split>
+         <Split Orientation="topBottom" Position="0.7059">
+            <View Name="Workspace" Title="工作区"/>
+            <View Name="Command History" Title="命令历史记录"/>
+         </Split>
+      </Split>
+      <QuickAccessLocation Region="right_of_tabs"/>
+   </Frame>
+   <Group Alphabetize="no" CollapseUndockedDocumentToolstrips="no" Dock="no" Guest="no" Name="Editor" PropertyClass="com.mathworks.mde.editor.EditorGroup" Show="no" ShowViews="no" Title="编辑器"/>
+   <Group Alphabetize="no" CollapseUndockedDocumentToolstrips="no" Dock="no" Guest="no" Name="Figures" PropertyClass="com.mathworks.hg.peer.FiguresGroup" Show="no" ShowViews="no" Title="图窗">
+      <Split Orientation="topBottom" Position="0.667">
+         <Split Orientation="leftRight" Position="0.25">
+            <View Name="Figure Palette" Title=""/>
+            <Split Orientation="leftRight" Position="0.667">
+               <Documents Name="Figures" Title=""/>
+               <View Name="Plot Browser" Title=""/>
+            </Split>
+         </Split>
+         <View Name="Property Editor" Title=""/>
+      </Split>
+   </Group>
+   <Group Alphabetize="no" CollapseUndockedDocumentToolstrips="no" Dock="no" Guest="no" Name="Web Browser" PropertyClass="com.mathworks.mde.webbrowser.WebBrowserGroup" Show="no" ShowViews="no" Title="Web 浏览器"/>
+   <Group Alphabetize="no" CollapseUndockedDocumentToolstrips="no" Dock="no" Guest="no" Name="Array Editor" Show="no" ShowViews="no" Title="变量"/>
+   <Group Alphabetize="no" CollapseUndockedDocumentToolstrips="no" Dock="no" Guest="no" Name="File Comparisons" PropertyClass="com.mathworks.comparisons.report.ComparisonReportGroup" Show="no" ShowViews="no" Title="比较"/>
+   <Group Alphabetize="no" CollapseUndockedDocumentToolstrips="no" Dock="no" Guest="no" Name="Doc Center" PropertyClass="com.mathworks.mde.help.MLHelpBrowserGroup" Show="no" ShowViews="no" Title="帮助">
+      <DocumentArea Arrangement="maximized" Bar="top" Empty="no" MaxBarWidth="0" Showing="no" ShrinkTabs="yes"/>
+   </Group>
+   <Client Class="com.mathworks.mde.cmdwin.CmdWin" Dock="yes" Guest="no" Name="Command Window" SelectionOrder="15" Show="yes" Singleton="yes" StatusBarShowing="yes" TearOff="no" Title="命令行窗口">
+      <Location Context="docked" Height="845" Path="WE" Type="nested" Width="1186" X="280" Y="169"/>
+      <Location Context="nested" Height="845" Path="WE" Type="nested" Width="1186" X="280" Y="169"/>
+   </Client>
+   <Client Class="com.mathworks.mde.cmdhist.AltHistory" Dock="yes" Guest="no" Name="Command History" SelectionOrder="14" Show="yes" Singleton="yes" StatusBarShowing="yes" TearOff="yes" Title="命令历史记录">
+      <Location Context="docked" Height="245" ParentHeight="845" ParentWidth="450" Path="ES" Type="nested" Width="450" X="1470" Y="769"/>
+      <Location Context="nested" Height="245" ParentHeight="845" ParentWidth="450" Path="ES" Type="nested" Width="450" X="1470" Y="769"/>
+   </Client>
+   <Client Class="com.mathworks.mde.explorer.Explorer" Dock="yes" Guest="no" Name="Current Directory" SelectionOrder="13" Show="yes" Singleton="yes" StatusBarShowing="yes" TearOff="no" Title="当前文件夹">
+      <Location Context="docked" Height="845" Path="WW" Type="nested" Width="276" Y="169"/>
+      <Location Context="nested" Height="845" Path="WW" Type="nested" Width="276" Y="169"/>
+   </Client>
+   <Client Class="com.mathworks.mde.workspace.WorkspaceBrowser" Dock="yes" Guest="no" Name="Workspace" SelectionOrder="12" Show="yes" Singleton="yes" StatusBarShowing="yes" TearOff="no" Title="工作区">
+      <Location Context="docked" Height="596" ParentHeight="845" ParentWidth="450" Path="EN" Type="nested" Width="450" X="1470" Y="169"/>
+      <Location Context="nested" Height="596" ParentHeight="845" ParentWidth="450" Path="EN" Type="nested" Width="450" X="1470" Y="169"/>
+   </Client>
+</Layout>
